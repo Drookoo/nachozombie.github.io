@@ -14,7 +14,7 @@ document.getElementById("click").onclick =    function() {
 };
 document.getElementById("buy_click").onclick =    function() {  
     if (clicks < cost) {
-        return alert('need more clicks.');
+        return alert('You require more Clicks.');
     }
     auto_clicks++; 
     clicks -= cost;
