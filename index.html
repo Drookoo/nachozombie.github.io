@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>My first API</title>
+  <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="keys.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
 <body>
-<button id="click">click me!</button>
-<button id="buy_click">Buy an autoclick for 1</button>
-<button id="buy_click_beaver">Buy a Click Beaver for 10</button>
-<div id="total_clicks">Clicks: 0</div>
-<div id="clicks_per_second">Clicks per second: 0</div>
-<div id="click_beavers">Click Beavers owned: 0</div>
-<script src = "game.js"></script>
+	<div><div id="tags"></div>
+    <input type="text" id="imgurl" placeholder="Image URL"/>
+    <button onclick="run(document.getElementById('imgurl').value)">Get tags!</button>
+	</div>
 </body>
 </html>
